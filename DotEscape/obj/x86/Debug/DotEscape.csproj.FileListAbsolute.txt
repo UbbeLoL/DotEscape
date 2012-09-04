@@ -1,0 +1,14 @@
+c:\users\mattias\documents\visual studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\DotEscape.exe
+c:\users\mattias\documents\visual studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\DotEscape.pdb
+c:\users\mattias\documents\visual studio 2010\Projects\DotEscape\DotEscape\obj\x86\Debug\DotEscape.csprojResolveAssemblyReference.cache
+c:\users\mattias\documents\visual studio 2010\Projects\DotEscape\DotEscape\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\mattias\documents\visual studio 2010\Projects\DotEscape\DotEscape\obj\x86\Debug\DotEscape.exe
+c:\users\mattias\documents\visual studio 2010\Projects\DotEscape\DotEscape\obj\x86\Debug\DotEscape.pdb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\DefaultFont.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\BadDot.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\Player.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\Wall.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\Border.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\Coin.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\GoodGoal.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\BadGoal.xnb
