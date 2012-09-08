@@ -35,7 +35,12 @@ namespace DotEscape.Engine.Objects
 
         private bool IsActivated()
         {
-            return Globals.ActiveScene.AquiredCoins >= Globals.ActiveScene.RequiredCoins;
+            if (Globals.ActiveScene.AquiredCoins >= Globals.ActiveScene.RequiredCoins && Globals.ActiveScene.ActiveObjects.FirstOrDefault(x => x is Coin) != null)
+                Globals.ActiveScene.AquiredCoins = Globals.ActiveScene.RequiredCoins -
+                                                   (Globals.ActiveScene.ActiveObjects.Where(x => x is Coin).ToArray().
+                                                       Length);
+
+            return Globals.ActiveScene.AquiredCoins == Globals.ActiveScene.RequiredCoins;
         }
 
         public void Draw(GameTime gameTime)

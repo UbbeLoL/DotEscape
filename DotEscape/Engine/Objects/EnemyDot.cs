@@ -74,21 +74,23 @@ namespace DotEscape.Engine.Objects
                 else
                     y -= Speed;
 
+            if (!Globals.Debug)
+            {
+                var tmpRect = new Rectangle(x, y, 16, 16);
+
+                if (tmpRect.Intersects(PlayerObj.ObjectRectangle))
+                {
+                    Globals.Deaths++;
+                    Globals.ActiveScene.Reset();
+                }
+            }
+
             //Loss of fraction shouldn't be an issue, we're adjusting position
             //in the if statements above
             if (Position.X == x && Position.Y == y) //We've reached our target point, move on to next one
                 CyclePoint();
 
             Position = new Vector2(x, y);
-
-            if (!Globals.Debug)
-            {
-                if (ObjectRectangle.Intersects(PlayerObj.ObjectRectangle))
-                {
-                    Globals.Deaths++;
-                    Globals.ActiveScene.Reset();
-                }
-            }
         }
 
         public void Draw(GameTime gameTime)

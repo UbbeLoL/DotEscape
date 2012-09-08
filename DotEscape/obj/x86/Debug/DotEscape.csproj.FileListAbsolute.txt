@@ -12,3 +12,4 @@ C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x
 C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\Coin.xnb
 C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\GoodGoal.xnb
 C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\BadGoal.xnb
+C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\CutSceneFont.xnb

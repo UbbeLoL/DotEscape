@@ -52,8 +52,8 @@ namespace DotEscape.Engine.Bases
                 Globals.ActiveScene = Globals.LoadedScenes[++Globals.CurrentScene];
                 Globals.ActiveScene.Initialize();
             }
-            else
-                Environment.Exit(-1);
+            //else
+            //    Environment.Exit(-1);
         }
 
         public void Initialize()
@@ -75,13 +75,13 @@ namespace DotEscape.Engine.Bases
             ActiveObjects.Add(obj);
         }
 
-        public void Update(GameTime gameTime)
+        public virtual void Update(GameTime gameTime)
         {
             InputManager.Update();
             ActiveObjects.ForEach(x => x.Update(gameTime));
         }
 
-        public void Draw(GameTime gameTime)
+        public virtual void Draw(GameTime gameTime)
         {
             ActiveObjects.ForEach(x => x.Draw(gameTime));
         }

@@ -80,11 +80,11 @@ namespace DotEscape.Engine.Objects
 
             if (Velocity.X > 0)
                 while (tmpRect.Intersects(collider.ObjectRectangle))
-                    tmpRect.X -= (int)Velocity.X;
+                    tmpRect.X += -(int)Velocity.X;
 
             if(Velocity.Y > 0)
                 while (tmpRect.Intersects(collider.ObjectRectangle))
-                    tmpRect.Y -= (int)Velocity.Y;
+                    tmpRect.Y += -(int)Velocity.Y;
 
             return new Vector2(tmpRect.X, tmpRect.Y);
         }

@@ -16,7 +16,8 @@ namespace DotEscape.Engine.Scenes
                                  {
                                      Position = new Vector2(600, 7),
                                      ObjectRectangle =
-                                         new Rectangle(600, 7, (int)(Globals.Bounds.X - 607), 50)
+                                         new Rectangle(600, 7, (int)(Globals.Bounds.X - 607), 50),
+                                         ID = 1
                                  };
 
         public FirstScene()

@@ -19,7 +19,7 @@ namespace DotEscape.Engine.Bases
         Left = 0x4
     }
 
-    public interface IGameObject
+    public interface IGameObject : IGameController
     {
         Player PlayerObj { get; }
         Texture2D ObjectTexture { get; }
@@ -28,8 +28,5 @@ namespace DotEscape.Engine.Bases
         int ID { get; set; }
         bool IsSolid { get; set; }
         int Speed { get; set; }
-
-        void Update(GameTime gameTime);
-        void Draw(GameTime gameTime);
     }
 }

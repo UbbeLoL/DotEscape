@@ -20,7 +20,7 @@ namespace DotEscape
         public static SpriteFont DefaultFont;
 
         public static bool Pause;
-        public static bool Debug = true;
+        public static bool Debug = false;
 
         public static int Deaths;
         public static int CurrentScene;

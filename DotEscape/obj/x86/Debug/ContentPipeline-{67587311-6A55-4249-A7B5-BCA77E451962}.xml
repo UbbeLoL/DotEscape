@@ -73,6 +73,15 @@
       <Output>C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\IngameObjects\BadGoal.xnb</Output>
       <Time>2012-09-04T19:46:13.9534247+02:00</Time>
     </Item>
+    <Item>
+      <Source>CutSceneFont.spritefont</Source>
+      <Name>CutSceneFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mattias\Documents\Visual Studio 2010\Projects\DotEscape\DotEscape\bin\x86\Debug\Content\CutSceneFont.xnb</Output>
+      <Time>2012-09-08T23:57:48.5496208+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{67587311-6A55-4249-A7B5-BCA77E451962}</ContentProjectGUID>

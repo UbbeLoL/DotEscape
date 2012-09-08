@@ -72,6 +72,7 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\Bases\IGameController.cs" />
     <Compile Include="Engine\Bases\IGameObject.cs" />
     <Compile Include="Engine\Bases\Scene.cs" />
     <Compile Include="Engine\Objects\Coin.cs" />
@@ -79,9 +80,14 @@
     <Compile Include="Engine\Objects\EnemyDot.cs" />
     <Compile Include="Engine\InputManager.cs" />
     <Compile Include="Engine\Objects\Player.cs" />
+    <Compile Include="Engine\Scenes\CutScene3.cs" />
+    <Compile Include="Engine\Scenes\CutScene2.cs" />
+    <Compile Include="Engine\Scenes\SecondScene.cs" />
+    <Compile Include="Engine\Scenes\FourthScene.cs" />
+    <Compile Include="Engine\Scenes\ThirdScene.cs" />
     <Compile Include="Engine\Scenes\FirstScene.cs" />
     <Compile Include="Engine\Objects\StandardObject.cs" />
-    <Compile Include="Engine\Scenes\SecondScene.cs" />
+    <Compile Include="Engine\Scenes\CutScene1.cs" />
     <Compile Include="Engine\Utils\SceneCreation.cs" />
     <Compile Include="Globals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

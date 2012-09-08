@@ -48,7 +48,12 @@ namespace DotEscape
             Globals.LoadedScenes = new Dictionary<int, Scene>
                                        {
                                            {0, new FirstScene()},
-                                           {1, new SecondScene()},
+                                           {1, new CutScene1()},
+                                           {2, new SecondScene()},
+                                           {3, new ThirdScene()},
+                                           {4, new CutScene2()},
+                                           {5, new FourthScene()},
+                                           {6, new CutScene3()}
                                        };
 
             Globals.ActiveScene = Globals.LoadedScenes[0];
@@ -79,8 +84,8 @@ namespace DotEscape
                 _elapsedTime = 0;
             }
 
-            if (InputManager.IsKeyPressed(Keys.F1))
-                Globals.Debug = !Globals.Debug;
+           // if (InputManager.IsKeyPressed(Keys.F1))
+           //     Globals.Debug = !Globals.Debug;
 
             if (!Globals.Pause)
                 Globals.ActiveScene.Update(gameTime);
@@ -108,6 +113,7 @@ namespace DotEscape
                 _spriteBatch.DrawString(Globals.DefaultFont, "VelX: " + (Globals.ActiveScene.ActiveObjects.First(x => x is Player) as Player).Velocity.X, new Vector2(5, 55), Color.Black);
                 _spriteBatch.DrawString(Globals.DefaultFont, "VelY: " + (Globals.ActiveScene.ActiveObjects.First(x => x is Player) as Player).Velocity.Y, new Vector2(5, 70), Color.Black);
                 _spriteBatch.DrawString(Globals.DefaultFont, "FPS: " + _fps, new Vector2(5, 85), Color.Black);
+                _spriteBatch.DrawString(Globals.DefaultFont, string.Format("Coins: ({0}/{1})", Globals.ActiveScene.AquiredCoins, Globals.ActiveScene.RequiredCoins), new Vector2(5, 100), Color.Black);
             }
 
             #endregion
